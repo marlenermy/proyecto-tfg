@@ -28,7 +28,7 @@ $pass="root";
 // Conexión con la base de datos $CONEXION
 $conexion=mysqli_connect($servername, $unsername, $pass, $database);
 
-// Validar datos insertados en la tabla
+// Validar los datos insertados en la tabla
 if(isset($_POST['codproducto'])){
     $codproducto=$_POST['codproducto'];
     if(isset($_POST['nombre'])){

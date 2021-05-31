@@ -9,7 +9,7 @@
 // Ignorar mensajes de advertencia
 error_reporting(0);
 
-// Variables de datos para la conexión
+// Variables de datos para establecer la conexión
 $servername="170.0.0.2";
 $database="tienda";
 $unsername="root";
